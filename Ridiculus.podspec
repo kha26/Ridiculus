@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.swift_version = '3.2'
 
-  s.source_files = 'Ridiculus/Classes/**/*'
+  s.source_files = 'Ridiculus/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'Ridiculus' => ['Ridiculus/Assets/*.png']

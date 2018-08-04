@@ -11,11 +11,16 @@
 		2688EC3A7DF14C944F254C237535EF71 /* Ridiculus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 774003D848DCC8366A888E0B924D2A9D /* Ridiculus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C6DE79A060AFAC1B6CFDC767710FCEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		2D521812C5E13B487FCFCDEE228F4CFA /* Pods-Ridiculus_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA352BFF689DB59AB61BF1773C3BE30 /* Pods-Ridiculus_Example-dummy.m */; };
+		430C23E5211630C20059DD2F /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23E4211630C20059DD2F /* AnimationViewController.swift */; };
+		430C23E7211631000059DD2F /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23E6211631000059DD2F /* AnimationType.swift */; };
+		430C23E9211631100059DD2F /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23E8211631100059DD2F /* AnimationView.swift */; };
+		430C23EB2116311C0059DD2F /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23EA2116311C0059DD2F /* BubbleView.swift */; };
+		430C23ED2116312B0059DD2F /* SpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23EC2116312B0059DD2F /* SpiralView.swift */; };
+		430C23EF211631400059DD2F /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23EE211631400059DD2F /* ArcView.swift */; };
 		69E82F940F5D43A7379C19B3061445C5 /* Pods-Ridiculus_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C45F82AD3A6A9AE6FFBC2646A8D33CF5 /* Pods-Ridiculus_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8251615563BB8984F74AF192BB67A7F1 /* Pods-Ridiculus_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBACAEAD865765CC222EC65B994F1CFE /* Pods-Ridiculus_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83874A43F5F5E69407E158B4BE7C1EFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		8E7DE9B0EDBCCD5E655D8C00C6E570DD /* Ridiculus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6699224F7C7333FBD163A2B46E9F951 /* Ridiculus-dummy.m */; };
-		EE80C02B862B2FB8EA0F8E21DCBDAF0C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3822A417FE91834C134A68B50B2D4CFB /* ReplaceMe.swift */; };
 		FF64F7CAFE23DAE6C804783D2EEFF461 /* Pods-Ridiculus_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0A1609793FCC28B30F575CCEFB9FB3 /* Pods-Ridiculus_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -39,13 +44,18 @@
 /* Begin PBXFileReference section */
 		08F7C41D4D963F6937C6F6CCD2D667FC /* Pods-Ridiculus_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ridiculus_Example-resources.sh"; sourceTree = "<group>"; };
 		163ADDDA85777D14D847F18A9CB0753D /* Pods-Ridiculus_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ridiculus_Tests.modulemap"; sourceTree = "<group>"; };
-		1E87DF4B41F0DE5828847A809FFC0DB4 /* Pods_Ridiculus_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ridiculus_Tests.framework; path = "Pods-Ridiculus_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27544A56A3612D28B2584F9D0F8C6341 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		288352926DF37F96103F6089BF069239 /* Pods_Ridiculus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Ridiculus_Example.framework; path = "Pods-Ridiculus_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3822A417FE91834C134A68B50B2D4CFB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Ridiculus/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		1E87DF4B41F0DE5828847A809FFC0DB4 /* Pods_Ridiculus_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ridiculus_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27544A56A3612D28B2584F9D0F8C6341 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		288352926DF37F96103F6089BF069239 /* Pods_Ridiculus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ridiculus_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39AB5DB14D4400B1CEE410AA2B8D7515 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42262B79D4DA5DF0D52833F9CFDB6F05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46594E965DC38DDDC54428FF1F5C6672 /* Ridiculus.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Ridiculus.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		430C23E4211630C20059DD2F /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		430C23E6211631000059DD2F /* AnimationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
+		430C23E8211631100059DD2F /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		430C23EA2116311C0059DD2F /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
+		430C23EC2116312B0059DD2F /* SpiralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralView.swift; sourceTree = "<group>"; };
+		430C23EE211631400059DD2F /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
+		46594E965DC38DDDC54428FF1F5C6672 /* Ridiculus.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Ridiculus.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5BEA0C1EA79D61A3A84B956913AD210F /* Ridiculus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ridiculus-prefix.pch"; sourceTree = "<group>"; };
 		5D73009FAA286E152F85265E2D6B0C8E /* Pods-Ridiculus_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ridiculus_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -54,15 +64,15 @@
 		8B734081841891FD2771C17928158BBE /* Pods-Ridiculus_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ridiculus_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8E8EB5B5D5FF0D639FF7C70E8BBC541D /* Ridiculus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ridiculus.xcconfig; sourceTree = "<group>"; };
 		8FC75CAF8F6D2436580B69A502538142 /* Pods-Ridiculus_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ridiculus_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B1AEA7C0052DE07F38C13F09F2F03F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BEF41A7FD247EE1B2F57D244DCB38D0 /* Pods-Ridiculus_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ridiculus_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A4BBFB6ADBF4852400C4A8B22D2012AF /* Pods-Ridiculus_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ridiculus_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ABA352BFF689DB59AB61BF1773C3BE30 /* Pods-Ridiculus_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ridiculus_Example-dummy.m"; sourceTree = "<group>"; };
 		B35EF21BD7655F509947CCDBF6119B9D /* Pods-Ridiculus_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ridiculus_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6699224F7C7333FBD163A2B46E9F951 /* Ridiculus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ridiculus-dummy.m"; sourceTree = "<group>"; };
-		BE9283EF7AC7DCB8EB803F3402AEA942 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C257F3EB98BE0DB23912C663DE794A8C /* Ridiculus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Ridiculus.framework; path = Ridiculus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9283EF7AC7DCB8EB803F3402AEA942 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C257F3EB98BE0DB23912C663DE794A8C /* Ridiculus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ridiculus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45F82AD3A6A9AE6FFBC2646A8D33CF5 /* Pods-Ridiculus_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ridiculus_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D28CB553E6B9E19DE28E5AB23E18A534 /* Pods-Ridiculus_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ridiculus_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D2AA739E694EE359EDB24674C21CAB9C /* Ridiculus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Ridiculus.modulemap; sourceTree = "<group>"; };
@@ -137,7 +147,12 @@
 		470B16369441B437D3808B30AA4F4410 /* Ridiculus */ = {
 			isa = PBXGroup;
 			children = (
-				3822A417FE91834C134A68B50B2D4CFB /* ReplaceMe.swift */,
+				430C23E4211630C20059DD2F /* AnimationViewController.swift */,
+				430C23E6211631000059DD2F /* AnimationType.swift */,
+				430C23E8211631100059DD2F /* AnimationView.swift */,
+				430C23EA2116311C0059DD2F /* BubbleView.swift */,
+				430C23EC2116312B0059DD2F /* SpiralView.swift */,
+				430C23EE211631400059DD2F /* ArcView.swift */,
 				BB8ADEBB025460F7CC8917AB6DF81D67 /* Pod */,
 				10610DE642EC97AF57E03DD9496579A6 /* Support Files */,
 			);
@@ -318,6 +333,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					030DBD0ADEE2B3E5C0753350C57061D2 = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,7 +363,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE80C02B862B2FB8EA0F8E21DCBDAF0C /* ReplaceMe.swift in Sources */,
 				8E7DE9B0EDBCCD5E655D8C00C6E570DD /* Ridiculus-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,7 +371,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430C23EB2116311C0059DD2F /* BubbleView.swift in Sources */,
 				2D521812C5E13B487FCFCDEE228F4CFA /* Pods-Ridiculus_Example-dummy.m in Sources */,
+				430C23E9211631100059DD2F /* AnimationView.swift in Sources */,
+				430C23E5211630C20059DD2F /* AnimationViewController.swift in Sources */,
+				430C23E7211631000059DD2F /* AnimationType.swift in Sources */,
+				430C23EF211631400059DD2F /* ArcView.swift in Sources */,
+				430C23ED2116312B0059DD2F /* SpiralView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +446,7 @@
 			baseConfigurationReference = D28CB553E6B9E19DE28E5AB23E18A534 /* Pods-Ridiculus_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -445,6 +471,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -456,6 +483,7 @@
 			baseConfigurationReference = A4BBFB6ADBF4852400C4A8B22D2012AF /* Pods-Ridiculus_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -479,6 +507,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

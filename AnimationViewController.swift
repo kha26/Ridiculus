@@ -1,15 +1,14 @@
 //
-//  ViewController.swift
+//  AnimationViewController.swift
 //  Ridiculus
 //
-//  Created by kha26 on 08/04/2018.
-//  Copyright (c) 2018 kha26. All rights reserved.
+//  Created by Kemal Hasan Atay on 7/31/18.
+//  Copyright © 2018 ridiculus. All rights reserved.
 //
 
 import UIKit
 
-
-public class ViewController: UIViewController {
+public class AnimationViewController: UIViewController {
     var type: AnimationType
     var viewControllerToPresent: UIViewController!
     var animationView: AnimationView!
@@ -70,3 +69,7 @@ extension AnimationViewController: AnimationViewDelegate {
     }
 }
 
+protocol AnimationViewDelegate {
+    func didFinishAnimating();
+    func didBeginAnimating();
+}

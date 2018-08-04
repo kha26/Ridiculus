@@ -1,8 +1,8 @@
 {
   "name": "Ridiculus",
   "version": "0.1.0",
-  "summary": "A short description of Ridiculus.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Beautiful transition animations for iOS.",
+  "description": "Just some Ridiculus animations for your iOS app.",
   "homepage": "https://github.com/kha26/Ridiculus",
   "license": {
     "type": "MIT",
@@ -16,7 +16,8 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
+  "swift_version": "3.2",
   "source_files": "Ridiculus/Classes/**/*"
 }
