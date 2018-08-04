@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3908B15C8641CADF37265E2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3908B15C8641CADF37265E2C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		45ECDB30A217DCE0E89EF09D /* Pods-Ridiculus_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ridiculus_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ridiculus_Tests/Pods-Ridiculus_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Ridiculus_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ridiculus_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,10 +42,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		61C0E27EC9873E7C4FD476D1 /* Pods-Ridiculus_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ridiculus_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ridiculus_Example/Pods-Ridiculus_Example.release.xcconfig"; sourceTree = "<group>"; };
 		692BA45ACA4F113EB190634E /* Pods_Ridiculus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ridiculus_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C525813592474BE6D22B1D1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C525813592474BE6D22B1D1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D3237C4BA3681DEBB923CF2D /* Pods_Ridiculus_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ridiculus_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA956B3B502B2D3E275F4673 /* Pods-Ridiculus_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ridiculus_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ridiculus_Example/Pods-Ridiculus_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E6C1E1FCD7AC16873B9061BC /* Ridiculus.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Ridiculus.podspec; path = ../Ridiculus.podspec; sourceTree = "<group>"; };
+		E6C1E1FCD7AC16873B9061BC /* Ridiculus.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Ridiculus.podspec; path = ../Ridiculus.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FCBEE4E7F33AE69388081659 /* Pods-Ridiculus_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ridiculus_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ridiculus_Tests/Pods-Ridiculus_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

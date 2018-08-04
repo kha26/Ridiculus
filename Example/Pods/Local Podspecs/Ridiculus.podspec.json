@@ -1,0 +1,22 @@
+{
+  "name": "Ridiculus",
+  "version": "0.1.0",
+  "summary": "A short description of Ridiculus.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kha26/Ridiculus",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kha26": "kha26@cornell.edu"
+  },
+  "source": {
+    "git": "https://github.com/kha26/Ridiculus.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Ridiculus/Classes/**/*"
+}

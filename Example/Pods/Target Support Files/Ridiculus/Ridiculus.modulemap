@@ -1,0 +1,6 @@
+framework module Ridiculus {
+  umbrella header "Ridiculus-umbrella.h"
+
+  export *
+  module * { export * }
+}

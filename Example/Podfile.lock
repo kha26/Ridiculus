@@ -1,0 +1,16 @@
+PODS:
+  - Ridiculus (0.1.0)
+
+DEPENDENCIES:
+  - Ridiculus (from `../`)
+
+EXTERNAL SOURCES:
+  Ridiculus:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Ridiculus: cdc0bd191133d0d40fab630b791fb8464caebb5e
+
+PODFILE CHECKSUM: 5e42393963871813ddf3c22864f87b145d9eda64
+
+COCOAPODS: 1.5.3
