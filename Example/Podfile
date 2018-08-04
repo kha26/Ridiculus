@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Ridiculus_Example' do
+  pod 'Ridiculus', :path => '../'
+
+  target 'Ridiculus_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
