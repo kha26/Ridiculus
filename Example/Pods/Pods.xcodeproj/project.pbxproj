@@ -11,12 +11,13 @@
 		2688EC3A7DF14C944F254C237535EF71 /* Ridiculus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 774003D848DCC8366A888E0B924D2A9D /* Ridiculus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C6DE79A060AFAC1B6CFDC767710FCEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		2D521812C5E13B487FCFCDEE228F4CFA /* Pods-Ridiculus_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA352BFF689DB59AB61BF1773C3BE30 /* Pods-Ridiculus_Example-dummy.m */; };
-		430C23E5211630C20059DD2F /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23E4211630C20059DD2F /* AnimationViewController.swift */; };
-		430C23E7211631000059DD2F /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23E6211631000059DD2F /* AnimationType.swift */; };
-		430C23E9211631100059DD2F /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23E8211631100059DD2F /* AnimationView.swift */; };
-		430C23EB2116311C0059DD2F /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23EA2116311C0059DD2F /* BubbleView.swift */; };
-		430C23ED2116312B0059DD2F /* SpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23EC2116312B0059DD2F /* SpiralView.swift */; };
-		430C23EF211631400059DD2F /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23EE211631400059DD2F /* ArcView.swift */; };
+		430C23F8211633580059DD2F /* SpiralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23F2211633580059DD2F /* SpiralView.swift */; };
+		430C23F9211633580059DD2F /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23F3211633580059DD2F /* AnimationView.swift */; };
+		430C23FA211633580059DD2F /* ArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23F4211633580059DD2F /* ArcView.swift */; };
+		430C23FB211633580059DD2F /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23F5211633580059DD2F /* AnimationViewController.swift */; };
+		430C23FC211633580059DD2F /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23F6211633580059DD2F /* AnimationType.swift */; };
+		430C23FD211633580059DD2F /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23F7211633580059DD2F /* BubbleView.swift */; };
+		430C23FF211633680059DD2F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430C23FE211633680059DD2F /* Extensions.swift */; };
 		69E82F940F5D43A7379C19B3061445C5 /* Pods-Ridiculus_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C45F82AD3A6A9AE6FFBC2646A8D33CF5 /* Pods-Ridiculus_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8251615563BB8984F74AF192BB67A7F1 /* Pods-Ridiculus_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBACAEAD865765CC222EC65B994F1CFE /* Pods-Ridiculus_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83874A43F5F5E69407E158B4BE7C1EFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -49,12 +50,13 @@
 		288352926DF37F96103F6089BF069239 /* Pods_Ridiculus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ridiculus_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39AB5DB14D4400B1CEE410AA2B8D7515 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42262B79D4DA5DF0D52833F9CFDB6F05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		430C23E4211630C20059DD2F /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
-		430C23E6211631000059DD2F /* AnimationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
-		430C23E8211631100059DD2F /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
-		430C23EA2116311C0059DD2F /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
-		430C23EC2116312B0059DD2F /* SpiralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralView.swift; sourceTree = "<group>"; };
-		430C23EE211631400059DD2F /* ArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcView.swift; sourceTree = "<group>"; };
+		430C23F2211633580059DD2F /* SpiralView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpiralView.swift; path = Ridiculus/Classes/SpiralView.swift; sourceTree = "<group>"; };
+		430C23F3211633580059DD2F /* AnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimationView.swift; path = Ridiculus/Classes/AnimationView.swift; sourceTree = "<group>"; };
+		430C23F4211633580059DD2F /* ArcView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArcView.swift; path = Ridiculus/Classes/ArcView.swift; sourceTree = "<group>"; };
+		430C23F5211633580059DD2F /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimationViewController.swift; path = Ridiculus/Classes/AnimationViewController.swift; sourceTree = "<group>"; };
+		430C23F6211633580059DD2F /* AnimationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimationType.swift; path = Ridiculus/Classes/AnimationType.swift; sourceTree = "<group>"; };
+		430C23F7211633580059DD2F /* BubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BubbleView.swift; path = Ridiculus/Classes/BubbleView.swift; sourceTree = "<group>"; };
+		430C23FE211633680059DD2F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		46594E965DC38DDDC54428FF1F5C6672 /* Ridiculus.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Ridiculus.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5BEA0C1EA79D61A3A84B956913AD210F /* Ridiculus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ridiculus-prefix.pch"; sourceTree = "<group>"; };
@@ -147,12 +149,13 @@
 		470B16369441B437D3808B30AA4F4410 /* Ridiculus */ = {
 			isa = PBXGroup;
 			children = (
-				430C23E4211630C20059DD2F /* AnimationViewController.swift */,
-				430C23E6211631000059DD2F /* AnimationType.swift */,
-				430C23E8211631100059DD2F /* AnimationView.swift */,
-				430C23EA2116311C0059DD2F /* BubbleView.swift */,
-				430C23EC2116312B0059DD2F /* SpiralView.swift */,
-				430C23EE211631400059DD2F /* ArcView.swift */,
+				430C23F6211633580059DD2F /* AnimationType.swift */,
+				430C23FE211633680059DD2F /* Extensions.swift */,
+				430C23F3211633580059DD2F /* AnimationView.swift */,
+				430C23F5211633580059DD2F /* AnimationViewController.swift */,
+				430C23F4211633580059DD2F /* ArcView.swift */,
+				430C23F7211633580059DD2F /* BubbleView.swift */,
+				430C23F2211633580059DD2F /* SpiralView.swift */,
 				BB8ADEBB025460F7CC8917AB6DF81D67 /* Pod */,
 				10610DE642EC97AF57E03DD9496579A6 /* Support Files */,
 			);
@@ -371,13 +374,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				430C23EB2116311C0059DD2F /* BubbleView.swift in Sources */,
+				430C23F9211633580059DD2F /* AnimationView.swift in Sources */,
+				430C23FA211633580059DD2F /* ArcView.swift in Sources */,
+				430C23FD211633580059DD2F /* BubbleView.swift in Sources */,
+				430C23FF211633680059DD2F /* Extensions.swift in Sources */,
+				430C23FC211633580059DD2F /* AnimationType.swift in Sources */,
+				430C23FB211633580059DD2F /* AnimationViewController.swift in Sources */,
 				2D521812C5E13B487FCFCDEE228F4CFA /* Pods-Ridiculus_Example-dummy.m in Sources */,
-				430C23E9211631100059DD2F /* AnimationView.swift in Sources */,
-				430C23E5211630C20059DD2F /* AnimationViewController.swift in Sources */,
-				430C23E7211631000059DD2F /* AnimationType.swift in Sources */,
-				430C23EF211631400059DD2F /* ArcView.swift in Sources */,
-				430C23ED2116312B0059DD2F /* SpiralView.swift in Sources */,
+				430C23F8211633580059DD2F /* SpiralView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
