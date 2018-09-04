@@ -8,7 +8,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/Ridiculus.svg?style=flat)](https://cocoapods.org/pods/Ridiculus)
 
 
-<img src="Example/ridiculus_sample.gif" width="100"/>
+<img src="Example/ridiculus_sample.gif" width="300"/>
 
 ## Example
 
